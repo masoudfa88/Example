@@ -1,5 +1,15 @@
 table,tr,td{
-    border: 1px black solid;
+    border-bottom: 1px black solid;
     border-collapse: collapse;
     direction: rtl;
+}
+tr:nth-child(odd){
+    background-color: cornflowerblue;
+}
+tr:hover{
+    background-color: cyan;
+    font-size: 20px;
+}
+tr:first-child{
+    border: black 1px solid;
 }
